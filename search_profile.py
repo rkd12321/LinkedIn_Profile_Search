@@ -10,7 +10,7 @@ options.add_argument('--disable-dev-shm-usage')
 driver = webdriver.Chrome('chromedriver',options=options)
 driver.set_window_size(1920, 1080)
 
-url="https://www.google.com/search?q=[##검색어 입력##]+site:linkedin.com/in&newwindow=1&start="
+url="https://www.google.com/search?q=[##URL인코딩된 검색어 입력##]+site:linkedin.com/in&newwindow=1&start="
 x = 9
 page_url=url + str(x)
 
