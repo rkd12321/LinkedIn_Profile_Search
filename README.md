@@ -1,5 +1,7 @@
 # LinkedIn_Profile_Search
-링크드인 프로필 검색하기 
+구글링으로 링크드인 프로필 검색<br> 
+만든 이유 : 임직원을 사칭하는 프로필을 발견하여 정기적으로 전수조사하기 위해 만듦
+
 ## 1. 프로필 검색 환경 구성하기 (OS 환경 : Amazon linux2)
 ### 1) python & pip3 설치
 ---
@@ -31,8 +33,7 @@ gpgkey=https://dl-ssl.google.com/linux/<br>linux_signing_key.pub
 sudo yum install google-chrome-stable # 크롬 설치
 google-chrome --version # 설치한 크롬의 버전 확인
 ```
-#### - 크롬 드라이버 다운로드 및 압축 풀기
-#### [크롬 드라이버 다운 경로 직접 확인](https://chromedriver.storage.googleapis.com/index.html)
+#### - 크롬 드라이버 다운로드 및 압축 풀기 [크롬 드라이버 다운 경로 직접 확인](https://chromedriver.storage.googleapis.com/index.html)
 ```bash
 wget -N http://chromedriver.storage.googleapis.com/[크롬 버전 입력]/chromedriver_linux64.zip # 크롬 드라이버 다운로드
 unzip chromedriver_linux64.zip # 압축 풀기 
