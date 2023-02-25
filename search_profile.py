@@ -11,7 +11,7 @@ driver = webdriver.Chrome('[크롬 드라이버 경로 입력]',options=options)
 driver.set_window_size(1920, 1080)
 
 url="https://www.google.com/search?q=[##URL인코딩된 검색어 입력##]+site:linkedin.com/in&newwindow=1&start="
-## url_sample="https://www.google.com/search?q=  %22구글%22+OR+%22google%22+-%22오탐인+회사명%22  +site:linkedin.com/in&newwindow=1&start="
+## url_sample="https://www.google.com/search?q=  %22[검색하고자 하는 단어]%22+OR+%22google%22+-%22[제거하고 싶은 단어]%22  +site:linkedin.com/in&newwindow=1&start="
 
 x = 9
 page_url=url + str(x)
