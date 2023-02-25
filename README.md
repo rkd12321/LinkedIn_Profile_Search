@@ -1,6 +1,5 @@
 # LinkedIn_Profile_Search
 구글링으로 링크드인 프로필 검색<br> 
-만든 이유 : 임직원을 사칭하는 프로필을 발견하여 정기적으로 전수조사하기 위해 만듦
 
 ## 1. 프로필 검색 환경 구성하기 (OS 환경 : Amazon linux2)
 ### 1) python & pip3 설치
