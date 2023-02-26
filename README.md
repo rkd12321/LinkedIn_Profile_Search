@@ -1,5 +1,5 @@
 # LinkedIn_Profile_Search
-구글링으로 링크드인 프로필 검색<br> 
+구글검색을 활용하여 링크드인 프로필 검색(링크드인으로 크롤링 시 차단되기 때문임)<br> 
 
 ## 1. 프로필 검색 환경 구성하기 (OS 환경 : Amazon linux2)
 ### 1) python & pip3 설치
